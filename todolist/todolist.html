@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>To Do List</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
 
-	<link rel="stylesheet" href="2.css" />
-</head>
-<body>
-	
-	<header>
-		<h1>To Do List</h1>
-		<form id="task-form">
-			<input 
-				type="text" 
-				name="task-input" 
-				id="task-input" 
-				placeholder="Mission" />
-			<input 
-				type="submit"
-				id="task-submit" 
-				value="Add mission" />
-		</form>
-	</header>
-	<main>
-		<section class="task-list">
-			<h2>MISSON</h2>
+    <link rel="stylesheet" href="todoslist.css" />
+  </head>
+  <body>
+    <header>
+      <h1>To Do List</h1>
+      <form id="task-form">
+        <input
+          type="text"
+          name="task-input"
+          id="task-input"
+          placeholder="Mission"
+        />
+        <input type="submit" id="task-submit" value="Add mission" />
+      </form>
+    </header>
+    <main>
+      <section class="task-list">
+        <h2>MISSON</h2>
 
-			<div id="tasks">
-
-				<!-- <div class="task">
+        <div id="tasks">
+          <!-- <div class="task">
 					<div class="content">
 						<input 
 							type="text" 
@@ -42,11 +38,10 @@
 						<button class="delete">Delete</button>
 					</div>
 				</div> -->
+        </div>
+      </section>
+    </main>
 
-			</div>
-		</section>
-	</main>
-
-	<script src="2.js"></script>
-</body>
+    <script src="todolist.js"></script>
+  </body>
 </html>
